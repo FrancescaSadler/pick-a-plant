@@ -1,0 +1,22 @@
+.card {
+    background: #fff;
+    height: 250px;
+    margin: 1rem; 
+    width: 325px;
+  }
+  
+  .card > .img-container {
+    height: 100%;
+    text-align: center;
+  }
+  .card > .img-container > img {
+    width: 85%;
+   
+  }
+  
+  .card > .content {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  

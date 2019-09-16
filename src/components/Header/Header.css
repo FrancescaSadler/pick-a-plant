@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    font-size: 4rem;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: forestgreen;
+  }
+ 
+  .title {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+  }
+  
+  .scores {
+    margin-top: 55px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 2rem
+  }
