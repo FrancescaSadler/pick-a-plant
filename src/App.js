@@ -46,8 +46,11 @@ class App extends Component {
  
   render() {
     return (
+      
+      <div>
+         <Header score={this.state.score} highscore={this.state.highscore}>Pick a Plant</Header>
       <Wrapper>
-        <Header score={this.state.score} highscore={this.state.highscore}>Pick a Plant</Header>
+        
         {this.state.cards.map(card => (
           <Card
             clickCount={this.clickCount}
@@ -57,6 +60,8 @@ class App extends Component {
           />
         ))}
       </Wrapper>
+      </div>
+      
     );
   }
 }
