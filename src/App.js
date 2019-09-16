@@ -4,6 +4,7 @@ import Wrapper from "./components/Wrapper";
 import Header from "./components/Header";
 import cards from "./cards.json";
 import "./App.css";
+import { Alert } from 'reactstrap';
 
 class App extends Component {
   // Setting this.state.cards to the cards json array
@@ -12,6 +13,8 @@ class App extends Component {
     score: 0,
     highscore: 0
   };
+
+
 
   gameOver = () => {
     if (this.state.score > this.state.highscore) {
@@ -22,7 +25,7 @@ class App extends Component {
     this.state.cards.forEach(card => {
       card.count = 0;
     });
-    alert(`Game Over :( \nscore: ${this.state.score}`);
+    alert(`Sorry! Game over. \nscore: ${this.state.score}`);
     this.setState({score: 0});
     return true;
   }
